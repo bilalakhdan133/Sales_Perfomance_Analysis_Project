@@ -24,7 +24,14 @@ Here is the final dashboard preview, you can find the full dashboard [here](http
 ### Data Overview
 Data consist of 186850 of item transaction-related variables such as Order ID, Product, Quantity Ordered, Price Each, Order Date, and Purchase Address.
 
-## SKIP DULU
+***Findings and Solution***
+- ada 545 null values ini di drop
+- ada header yg kebaca jadi data ini di drop
+- tambahin col buat mempermudah analisis
+- total purhcase col, quantity * price
+- month col, dr order date
+- city col, dr address
+
 
 ### Data Analysis using SQL
 ***What was the best month for sales? How much was earned that month?***
