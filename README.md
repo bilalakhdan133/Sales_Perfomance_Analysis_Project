@@ -18,10 +18,42 @@ Here is the final dashboard preview, you can find the full dashboard [here](http
 1. What was the best month for sales? How much was earned that month?
 2. What city sold the most product?
 3. What time should we display advertisemens to maximize the likelihood of customer’s buying product?
-4. What products are most often sold together?
-5. What product sold the most? Why do you think it sold the most?
+4. What product sold the most? Why do you think it sold the most?
 
 ## Data Cleaning and Analysis
 ### Data Overview
 Data consist of 186850 of item transaction-related variables such as Order ID, Product, Quantity Ordered, Price Each, Order Date, and Purchase Address.
 
+## SKIP DULU
+
+### Data Analysis using SQL
+***What was the best month for sales? How much was earned that month?***
+```SQL
+SELECT sales_data.Month, COUNT(*) as total_sales, FORMAT(SUM(`Total Purchase`), 'C') as total_earnings
+FROM sales_data
+GROUP BY sales_data.Month
+ORDER BY total_earnings DESC;
+```
+***What city sold the most product?***
+```SQL
+SELECT City, SUM(`Quantity Ordered`) as total_sales
+FROM sales_data
+GROUP BY City
+ORDER BY total_sales DESC;
+```
+***What time should we display advertisemens to maximize the likelihood of customer’s buying product?***
+```SQL
+SELECT HOUR(`Order Date`) as hour, SUM(`Quantity Ordered`) as total_sales
+FROM sales_data
+GROUP BY hour
+ORDER BY total_sales DESC
+LIMIT 5;
+```
+***What product sold the most?***
+```SQL
+SELECT Product, SUM(`Quantity Ordered`) as total_sold
+FROM sales_data
+GROUP BY Product
+ORDER BY total_sold desc
+LIMIT 5;
+```
