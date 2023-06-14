@@ -6,7 +6,7 @@ Here is the final dashboard preview, you can find the full dashboard [here](http
 ![](Images/FinalDashboard.png)
 
 ## Data and Tools
-**Dataset** - Transaction data with over 18000 rows and 6 columns. 
+**Dataset** - Transaction data with over 180000 rows and 6 columns. 
 
 **Data Cleaning** - Python using Jupyter Notebook
 
