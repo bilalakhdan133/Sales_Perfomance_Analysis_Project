@@ -34,6 +34,8 @@ FROM sales_data
 GROUP BY sales_data.Month
 ORDER BY total_earnings DESC;
 ```
+![](Images/BestMonth.png)
+
 ***What city sold the most product?***
 ```SQL
 SELECT City, SUM(`Quantity Ordered`) as total_sales
@@ -41,6 +43,8 @@ FROM sales_data
 GROUP BY City
 ORDER BY total_sales DESC;
 ```
+![](Images/CitySoldMost.png)
+
 ***What time should we display advertisemens to maximize the likelihood of customer’s buying product?***
 ```SQL
 SELECT HOUR(`Order Date`) as hour, SUM(`Quantity Ordered`) as total_sales
@@ -49,6 +53,8 @@ GROUP BY hour
 ORDER BY total_sales DESC
 LIMIT 5;
 ```
+![](Images/AdsTime.png)
+
 ***What product sold the most?***
 ```SQL
 SELECT Product, SUM(`Quantity Ordered`) as total_sold
@@ -57,3 +63,4 @@ GROUP BY Product
 ORDER BY total_sold desc
 LIMIT 5;
 ```
+![](Images/ProductSoldMost.png)
