@@ -24,6 +24,7 @@ Here is the final dashboard preview, you can find the full dashboard [here](http
 ### Data Overview
 Data consist of 186850 of item transaction-related variables such as Order ID, Product, Quantity Ordered, Price Each, Order Date, and Purchase Address.
 
+### Data Cleaning using Python
 ***Findings and Solution***
 - ada 545 null values ini di drop
 - ada header yg kebaca jadi data ini di drop
