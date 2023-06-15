@@ -46,6 +46,7 @@ data['Total Purchase'] = data['Quantity Ordered'] * data['Price Each']
 Month purchase column obtained by extracting the month number from 'order date' column and converting it to its name.
 ```python
 uncleaned['Month'] = uncleaned['Order Date'].dt.month
+
 month_dict = {
     1 : "January",
     2 : "February",
@@ -62,6 +63,18 @@ month_dict = {
 }
 uncleaned = uncleaned.replace({"Month":month_dict})
 ```
+
+***Adding total city column***
+
+City column obtained by extracting city name from 'purchase address' column.
+```python
+def get_city(df):
+    df = df.split(',')
+    return df[1].strip()
+
+uncleaned['City'] = uncleaned['Purchase Address'].apply(lambda x : get_city(x))
+```
+
 
 ### Data Analysis using SQL
 ***What was the best month for sales? How much was earned that month?***
