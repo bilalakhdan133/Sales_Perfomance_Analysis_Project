@@ -97,7 +97,7 @@ ORDER BY total_sales DESC;
 ```
 ![](Images/CitySoldMost.png)
 
-San Francisco sold the most product with 50238 product had been purchased there. 
+San Francisco sold the most product with 50238 items had been purchased there. 
 
 ***What time should we display advertisemens to maximize the likelihood of customer’s buying product?***
 ```SQL
@@ -109,6 +109,8 @@ LIMIT 5;
 ```
 ![](Images/AdsTime.png)
 
+According to overall sales, 7 PM is the best time to display advertisements since many customers made purchases at that hour. 
+
 ***What product sold the most?***
 ```SQL
 SELECT Product, SUM(`Quantity Ordered`) as total_sold
@@ -118,3 +120,5 @@ ORDER BY total_sold desc
 LIMIT 5;
 ```
 ![](Images/ProductSoldMost.png)
+
+With total sold on 31017 AAA Batteries (4-pack) is the most sold product followed by AA Batteries (4-pack) and USB-C Charging Cable. 
