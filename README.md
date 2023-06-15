@@ -31,7 +31,6 @@ Data consist of 186850 of item transaction-related variables such as Order ID, P
 - There are 545 rows with null values on each of its columns, so the rows can all be dropped.
 - There are 355 rows that contains columns name and not the real values, so i also drop all the rows.
 - To assist our data analysis, i will add several columns specifically 'total purchase' column, 'month' column, and 'city' column.
-
 ![](Images/DataContainColName.png)
 
 ### Data Analysis using SQL
