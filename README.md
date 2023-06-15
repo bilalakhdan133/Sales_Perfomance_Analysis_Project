@@ -24,6 +24,8 @@ Here is the final dashboard preview, you can find the full dashboard [here](http
 ### Data Overview
 Data consist of 186850 of item transaction-related variables such as Order ID, Product, Quantity Ordered, Price Each, Order Date, and Purchase Address.
 
+![](Images/DataOverview.png)
+
 ### Data Cleaning using Python
 ***Findings and Solution***
 - There are 545 rows with null values on each of its columns, so the rows can all be dropped.
