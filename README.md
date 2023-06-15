@@ -86,6 +86,8 @@ ORDER BY total_earnings DESC;
 ```
 ![](Images/BestMonth.png)
 
+With total earnings on $4,613,443, December is the best sales month followed by October and April.
+
 ***What city sold the most product?***
 ```SQL
 SELECT City, SUM(`Quantity Ordered`) as total_sales
@@ -94,6 +96,8 @@ GROUP BY City
 ORDER BY total_sales DESC;
 ```
 ![](Images/CitySoldMost.png)
+
+San Francisco sold the most product with 50238 product had been purchased there. 
 
 ***What time should we display advertisemens to maximize the likelihood of customer’s buying product?***
 ```SQL
