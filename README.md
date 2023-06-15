@@ -1,5 +1,5 @@
 # Sales_Perfomance_Analysis_Project
-Sales perfomance project based on transaction dataset, data cleaning using Python, data analysis using SQL, and data visualization using Tableu Public. This project was inpsired by [Github Project](https://github.com/KeithGalli/Pandas-Data-Science-Tasks).
+Sales perfomance project based on item transaction dataset, data cleaning using Python, data analysis using SQL, and data visualization using Tableu Public. This project was inpsired by [Github Project](https://github.com/KeithGalli/Pandas-Data-Science-Tasks).
 
 ## Dashboard Preview
 Here is the final dashboard preview, you can find the full dashboard [here](https://public.tableau.com/views/SalesPerfomanceAnalysis_16364520828390/SalesPerfomanceAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link).
@@ -26,12 +26,9 @@ Data consist of 186850 of item transaction-related variables such as Order ID, P
 
 ### Data Cleaning using Python
 ***Findings and Solution***
-- ada 545 null values ini di drop
-- ada header yg kebaca jadi data ini di drop
-- tambahin col buat mempermudah analisis
-- total purhcase col, quantity * price
-- month col, dr order date
-- city col, dr address
+- There are 545 rows with null values on each of its columns, so the rows can all be dropped.
+- There are 355 rows that contains columns name and not the real values, so i also drop all the rows.
+- To assist our data analysis, i will add several columns specifically 'total purchase' column, 'month' column, and 'city' column.
 
 
 ### Data Analysis using SQL
