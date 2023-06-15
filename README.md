@@ -38,7 +38,7 @@ Data consist of 186850 of item transaction-related variables such as Order ID, P
 
 Total purchase column obtained by multiplying value from 'quantity ordered' column with 'price each' column.
 ```python
-data['Total Purchase'] = data['Quantity Ordered'] * data['Price Each']
+uncleaned['Total Purchase'] = uncleaned['Quantity Ordered'] * uncleaned['Price Each']
 ```
 
 ***Adding total month column***
