@@ -41,6 +41,28 @@ Total purchase column obtained by multiplying value from 'quantity ordered' colu
 data['Total Purchase'] = data['Quantity Ordered'] * data['Price Each']
 ```
 
+***Adding total month column***
+
+Month purchase column obtained by extracting the month number from 'order date' column and converting it to its name.
+```python
+uncleaned['Month'] = uncleaned['Order Date'].dt.month
+month_dict = {
+    1 : "January",
+    2 : "February",
+    3 : "March",
+    4 : "April",
+    5 : "May",
+    6 : "June",
+    7 : "July",
+    8 : "August",
+    9 : "September",
+    10 : "October",
+    11 : "November",
+    12 : "December"
+}
+uncleaned = uncleaned.replace({"Month":month_dict})
+```
+
 ### Data Analysis using SQL
 ***What was the best month for sales? How much was earned that month?***
 ```SQL
