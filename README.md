@@ -32,6 +32,7 @@ Data consist of 186850 of item transaction-related variables such as Order ID, P
 - There are 355 rows that contains columns name and not the real values, so i also drop all the rows.
 - To assist our data analysis, i will add several columns specifically 'total purchase' column, 'month' column, and 'city' column.
 
+![](Images/DataContainColName.png)
 
 ### Data Analysis using SQL
 ***What was the best month for sales? How much was earned that month?***
