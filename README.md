@@ -124,4 +124,4 @@ LIMIT 5;
 With total sold on 31017 AAA Batteries (4-pack) is the most sold product followed by AA Batteries (4-pack) and USB-C Charging Cable. 
 
 # Reference Link
-1. [Keith Galli's Github Project](https://github.com/KeithGalli/Pandas-Data-Science-Tasks).
+1. This project was inspired by [Keith Galli's Github Project](https://github.com/KeithGalli/Pandas-Data-Science-Tasks)
