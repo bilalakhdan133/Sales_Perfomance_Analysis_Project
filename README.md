@@ -1,5 +1,5 @@
 # Sales_Perfomance_Analysis_Project
-Sales perfomance project based on item transaction dataset, data cleaning using Python, data analysis using SQL, and data visualization using Tableu Public. This project was inpsired by [Github Project](https://github.com/KeithGalli/Pandas-Data-Science-Tasks).
+In this project I did some data exploration and analysis using twelve months of sales data compiled between January 2019 to December 2019 answering several questions regarding the sales performance. I use Python for data cleaning and trasnformation, SQL for data analysis, and lastly Tableau further data visualization. 
 
 ## Dashboard Preview
 Here is the final dashboard preview, you can find the full dashboard [here](https://public.tableau.com/views/SalesPerfomanceAnalysis_16364520828390/SalesPerfomanceAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link).
@@ -122,3 +122,6 @@ LIMIT 5;
 ![](Images/ProductSoldMost.png)
 
 With total sold on 31017 AAA Batteries (4-pack) is the most sold product followed by AA Batteries (4-pack) and USB-C Charging Cable. 
+
+# Reference Link
+1. [Keith Galli's Github Project](https://github.com/KeithGalli/Pandas-Data-Science-Tasks).
