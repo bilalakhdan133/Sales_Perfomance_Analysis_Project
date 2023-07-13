@@ -41,7 +41,7 @@ Total purchase column obtained by multiplying value from 'quantity ordered' colu
 uncleaned['Total Purchase'] = uncleaned['Quantity Ordered'] * uncleaned['Price Each']
 ```
 
-***Adding total month column***
+***Adding month column***
 
 Month purchase column obtained by extracting the month number from 'order date' column and converting it to its name.
 ```python
@@ -64,7 +64,7 @@ month_dict = {
 uncleaned = uncleaned.replace({"Month":month_dict})
 ```
 
-***Adding total city column***
+***Adding city column***
 
 City column obtained by extracting city name from 'purchase address' column.
 ```python
