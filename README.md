@@ -18,7 +18,7 @@ Here is the final dashboard preview, you can find the full dashboard [here](http
 1. What was the best month for sales? How much was earned that month?
 2. What city sold the most product?
 3. What time should we display advertisemens to maximize the likelihood of customer’s buying product?
-4. What product sold the most? Why do you think it sold the most?
+4. What product sold the most? 
 
 ## Data Cleaning and Analysis
 ### Data Overview
