@@ -1,5 +1,5 @@
 # Sales_Perfomance_Analysis_Project
-In this project I did some data exploration and analysis using twelve months of sales data compiled between January 2019 to December 2019 answering several questions regarding the sales performance. I use Python for data cleaning and trasnformation, SQL for data analysis, and lastly Tableau further data visualization. 
+In this project I did some data exploration and analysis using twelve months of sales data compiled between January 2019 to December 2019 answering several questions regarding the sales performance. I use Python for data cleaning and transformation, SQL for data analysis, and lastly Tableau for data visualization. 
 
 ## Dashboard Preview
 Here is the final dashboard preview, you can find the full dashboard [here](https://public.tableau.com/views/SalesPerfomanceAnalysis_16364520828390/SalesPerfomanceAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link).
